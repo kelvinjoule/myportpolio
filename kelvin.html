@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Code Portfolio</title>
+    <link rel="stylesheet" href="joule.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! I'm Kelvin Congreso from BSIT 3-1, I love collecting kpop merch mostly Lightstick, Photocards and Album and i have 500 plus album and photocards.</p>
+    </section>
+
+    <section id="projects">
+        <h1>My Favorite Kpop GirlGroup</h1>
+        <div class="project">
+            <h2>TWICE</h2>
+            <img src="C:\Users\ALDRIN\Downloads\twice.jpg" alt="TWICE">  
+            <p>This is a national girlgroup in South Korea.</p>
+        </div>
+        <div class="project">
+            <h2>RED VELVET</h2>
+            <img src="C:\Users\ALDRIN\Downloads\redvelvet.jpg" alt="RED VELVET">  
+            <p>This is a Legendary kpop girlgroup in South Korea.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Kelvin Congreso</p>
+    </footer>
+
+    <script src="congreso.js"></script>
+</body>
+</html>
